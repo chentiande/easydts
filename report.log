@@ -1,0 +1,2818 @@
+2023/11/20 16:57:59 连接数据库错误 gin:root@tcp(127.0.0.1:3306)/root?charset=utf8mb4&parseTime=True&loc=Local
+2023/11/20 16:58:43 连接数据库错误 gin:root@tcp(localhost:3306)/root?charset=utf8mb4&parseTime=True&loc=Local
+2023/11/20 16:58:52 连接数据库错误 gin:root@tcp(localhost:3306)/root?charset=utf8mb4&parseTime=True&loc=Local
+2023/11/20 20:34:10 0xad4020
+2023/11/20 20:35:02 0x13340a0
+2023/11/20 20:37:11 http: panic serving [::1]:59736: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0002b8000}, 0xc00028e000)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000284030?}, {0xcfad18, 0xc0002b8000}, 0xc00028e000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa1e0, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:11 http: panic serving [::1]:59737: runtime error: invalid memory address or nil pointer dereference
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0002b80e0}, 0xc0000d0100)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000097140?}, {0xcfad18, 0xc0002b80e0}, 0xc0000d0100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296000, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:11 http: panic serving [::1]:59740: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0000fc000}, 0xc00028e400)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000284930?}, {0xcfad18, 0xc0000fc000}, 0xc00028e400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa280, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:12 http: panic serving [::1]:59744: runtime error: invalid memory address or nil pointer dereference
+goroutine 31 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0001fe1c0}, 0xc000218000)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc0001f3560?}, {0xcfad18, 0xc0001fe1c0}, 0xc000218000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa3c0, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:12 http: panic serving [::1]:59745: runtime error: invalid memory address or nil pointer dereference
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0002b81c0}, 0xc0000d0300)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc0000977a0?}, {0xcfad18, 0xc0002b81c0}, 0xc0000d0300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa8c0, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:12 http: panic serving [::1]:59748: runtime error: invalid memory address or nil pointer dereference
+goroutine 68 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0002b82a0}, 0xc0000d0400)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000097890?}, {0xcfad18, 0xc0002b82a0}, 0xc0000d0400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296320, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:13 http: panic serving [::1]:59756: runtime error: invalid memory address or nil pointer dereference
+goroutine 82 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0000fc0e0}, 0xc00028e800)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000285260?}, {0xcfad18, 0xc0000fc0e0}, 0xc00028e800)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa460, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:13 http: panic serving [::1]:59757: runtime error: invalid memory address or nil pointer dereference
+goroutine 83 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0000fc1c0}, 0xc00028e900)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc0002852c0?}, {0xcfad18, 0xc0000fc1c0}, 0xc00028e900)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa500, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:13 http: panic serving [::1]:59760: runtime error: invalid memory address or nil pointer dereference
+goroutine 96 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0000fc2a0}, 0xc00028ea00)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc0002853b0?}, {0xcfad18, 0xc0000fc2a0}, 0xc00028ea00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa6e0, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:18 http: panic serving [::1]:59774: runtime error: invalid memory address or nil pointer dereference
+goroutine 51 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0000fc380}, 0xc0000d0800)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000342600?}, {0xcfad18, 0xc0000fc380}, 0xc0000d0800)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faa00, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:18 http: panic serving [::1]:59775: runtime error: invalid memory address or nil pointer dereference
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0000fc460}, 0xc0000d0900)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000342660?}, {0xcfad18, 0xc0000fc460}, 0xc0000d0900)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faaa0, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:18 http: panic serving [::1]:59778: runtime error: invalid memory address or nil pointer dereference
+goroutine 55 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0001fe2a0}, 0xc00028eb00)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000285410?}, {0xcfad18, 0xc0001fe2a0}, 0xc00028eb00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fabe0, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:37 http: panic serving [::1]:59825: runtime error: invalid memory address or nil pointer dereference
+goroutine 61 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0002b8380}, 0xc00028ec00)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000285470?}, {0xcfad18, 0xc0002b8380}, 0xc00028ec00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fad20, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:37 http: panic serving [::1]:59826: runtime error: invalid memory address or nil pointer dereference
+goroutine 118 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0000fc540}, 0xc0000d0c00)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000342f00?}, {0xcfad18, 0xc0000fc540}, 0xc0000d0c00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa820, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:37:37 http: panic serving [::1]:59829: runtime error: invalid memory address or nil pointer dereference
+goroutine 124 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0000fc620}, 0xc000218300)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc00024a0f0?}, {0xcfad18, 0xc0000fc620}, 0xc000218300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aaa00, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:38:07 http: panic serving [::1]:59899: runtime error: invalid memory address or nil pointer dereference
+goroutine 148 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0001fe380}, 0xc000218400)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc00024a1b0?}, {0xcfad18, 0xc0001fe380}, 0xc000218400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aaaa0, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:38:07 http: panic serving [::1]:59900: runtime error: invalid memory address or nil pointer dereference
+goroutine 62 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0001fe460}, 0xc0000d0f00)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc0003437d0?}, {0xcfad18, 0xc0001fe460}, 0xc0000d0f00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fae60, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:38:07 http: panic serving [::1]:59903: runtime error: invalid memory address or nil pointer dereference
+goroutine 137 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0000fc700}, 0xc0000d1000)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000343890?}, {0xcfad18, 0xc0000fc700}, 0xc0000d1000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296460, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:39:07 http: panic serving [::1]:60044: runtime error: invalid memory address or nil pointer dereference
+goroutine 154 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0001fe540}, 0xc0000d1200)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000343c80?}, {0xcfad18, 0xc0001fe540}, 0xc0000d1200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aabe0, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:39:07 http: panic serving [::1]:60045: runtime error: invalid memory address or nil pointer dereference
+goroutine 155 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0002b8460}, 0xc00028ee00)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000285b00?}, {0xcfad18, 0xc0002b8460}, 0xc00028ee00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aac80, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:39:07 http: panic serving [::1]:60048: runtime error: invalid memory address or nil pointer dereference
+goroutine 200 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0000dc050, 0x4a}, {0xc0000dc000, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc000096ed0, {0xcfad18?, 0xc0002b8000}, 0xc00028e000)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc000342090?}, {0xcfad18, 0xc0002b8000}, 0xc00028e000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa0a0, {0xcfb420, 0xc000097050})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:40:09 http: panic serving [::1]:60193: runtime error: invalid memory address or nil pointer dereference
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0002cc050, 0x4a}, {0xc0002cc000, 0x4f}, {0xc000284460, 0x9}, {0xc000284470, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc00028ce40, {0xcfad18?, 0xc0002f6000}, 0xc00021a000)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc0001f3560?}, {0xcfad18, 0xc0002f6000}, 0xc00021a000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002901e0, {0xcfb420, 0xc00028cfc0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:40:09 http: panic serving [::1]:60194: runtime error: invalid memory address or nil pointer dereference
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0002cc050, 0x4a}, {0xc0002cc000, 0x4f}, {0xc000284460, 0x9}, {0xc000284470, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc00028ce40, {0xcfad18?, 0xc0002f60e0}, 0xc0002be100)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc00028d0b0?}, {0xcfad18, 0xc0002f60e0}, 0xc0002be100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa8c0, {0xcfb420, 0xc00028cfc0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:40:09 http: panic serving [::1]:60197: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0002cc050, 0x4a}, {0xc0002cc000, 0x4f}, {0xc000284460, 0x9}, {0xc000284470, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc00028ce40, {0xcfad18?, 0xc0000de000}, 0xc0002be500)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc00028d860?}, {0xcfad18, 0xc0000de000}, 0xc0002be500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000ac0a0, {0xcfb420, 0xc00028cfc0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:41:21 http: panic serving [::1]:60380: runtime error: invalid memory address or nil pointer dereference
+goroutine 12 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0002cc050, 0x4a}, {0xc0002cc000, 0x4f}, {0xc000284460, 0x9}, {0xc000284470, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc00028ce40, {0xcfad18?, 0xc0002f61c0}, 0xc0000d2200)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc0000965d0?}, {0xcfad18, 0xc0002f61c0}, 0xc0000d2200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faa00, {0xcfb420, 0xc00028cfc0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:41:21 http: panic serving [::1]:60381: runtime error: invalid memory address or nil pointer dereference
+goroutine 13 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0002cc050, 0x4a}, {0xc0002cc000, 0x4f}, {0xc000284460, 0x9}, {0xc000284470, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc00028ce40, {0xcfad18?, 0xc0002f62a0}, 0xc0002be600)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc00028d8c0?}, {0xcfad18, 0xc0002f62a0}, 0xc0002be600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faaa0, {0xcfb420, 0xc00028cfc0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:41:21 http: panic serving [::1]:60384: runtime error: invalid memory address or nil pointer dereference
+goroutine 31 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xbdff80, 0xf45bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0002cc050, 0x4a}, {0xc0002cc000, 0x4f}, {0xc000284460, 0x9}, {0xc000284470, 0xa})
+	D:/golang/easydts/main.go:106 +0x39c
+main.(*MyMux).ServeHTTP(0xc00028ce40, {0xcfad18?, 0xc0000de0e0}, 0xc0000d2300)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc0000966f0?}, {0xcfad18, 0xc0000de0e0}, 0xc0000d2300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000ac1e0, {0xcfb420, 0xc00028cfc0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:43:10 http: panic serving [::1]:60704: runtime error: invalid memory address or nil pointer dereference
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x77ff80, 0xae5bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0002cc050, 0x4a}, {0xc0002cc000, 0x4f}, {0xc000284460, 0x9}, {0xc000284470, 0xa})
+	D:/golang/easydts/main.go:106 +0x3c5
+main.(*MyMux).ServeHTTP(0xc00028ce40, {0x89ad38?, 0xc0002f6000}, 0xc0000aa000)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc0000960c0?}, {0x89ad38, 0xc0002f6000}, 0xc0000aa000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002901e0, {0x89b440, 0xc00028cfc0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:43:10 http: panic serving [::1]:60705: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x77ff80, 0xae5bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0002cc050, 0x4a}, {0xc0002cc000, 0x4f}, {0xc000284460, 0x9}, {0xc000284470, 0xa})
+	D:/golang/easydts/main.go:106 +0x3c5
+main.(*MyMux).ServeHTTP(0xc00028ce40, {0x89ad38?, 0xc0000e6000}, 0xc0002be100)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc00028d0b0?}, {0x89ad38, 0xc0000e6000}, 0xc0002be100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000ac000, {0x89b440, 0xc00028cfc0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 20:43:10 http: panic serving [::1]:60708: runtime error: invalid memory address or nil pointer dereference
+goroutine 26 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x77ff80, 0xae5bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0x1, {0xc0002cc050, 0x4a}, {0xc0002cc000, 0x4f}, {0xc000284460, 0x9}, {0xc000284470, 0xa})
+	D:/golang/easydts/main.go:106 +0x3c5
+main.(*MyMux).ServeHTTP(0xc00028ce40, {0x89ad38?, 0xc0001fe1c0}, 0xc000218000)
+	D:/golang/easydts/main.go:162 +0x9fd
+net/http.serverHandler.ServeHTTP({0xc0001f35f0?}, {0x89ad38, 0xc0001fe1c0}, 0xc000218000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000ac1e0, {0x89b440, 0xc00028cfc0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:01 http: panic serving [::1]:55790: runtime error: slice bounds out of range [:-1]
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc0000200a8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0002001c0}, 0xc0000d0100)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000284300?}, {0x6ead58, 0xc0002001c0}, 0xc0000d0100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa960, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:01 http: panic serving [::1]:55788: runtime error: slice bounds out of range [:-1]
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000021650})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc000200000}, 0xc00021c400)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000284030?}, {0x6ead58, 0xc000200000}, 0xc00021c400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa1e0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:01 http: panic serving [::1]:55791: runtime error: slice bounds out of range [:-1]
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc00018a078})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc000114000}, 0xc00021c000)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000284390?}, {0x6ead58, 0xc000114000}, 0xc00021c000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa280, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:01 http: panic serving [::1]:55792: runtime error: slice bounds out of range [:-1]
+goroutine 13 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc0005940a8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0001140e0}, 0xc00021c300)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0001f3800?}, {0x6ead58, 0xc0001140e0}, 0xc00021c300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faa00, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:01 http: panic serving [::1]:55793: runtime error: slice bounds out of range [:-1]
+goroutine 66 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000594198})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0002000e0}, 0xc0000d0000)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000097380?}, {0x6ead58, 0xc0002000e0}, 0xc0000d0000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00050c000, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:01 http: panic serving [::1]:55789: runtime error: slice bounds out of range [:-1]
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc00018a168})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc000274000}, 0xc00021c200)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0000971a0?}, {0x6ead58, 0xc000274000}, 0xc00021c200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296000, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:01 http: panic serving [::1]:55801: runtime error: slice bounds out of range [:-1]
+goroutine 131 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000021818})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0002740e0}, 0xc0000d0300)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000284de0?}, {0x6ead58, 0xc0002740e0}, 0xc0000d0300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa320, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:35 http: panic serving [::1]:55888: runtime error: slice bounds out of range [:-1]
+goroutine 149 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc0004d2120})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0004fc0e0}, 0xc00028e300)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000284e40?}, {0x6ead58, 0xc0004fc0e0}, 0xc00028e300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faaa0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:35 http: panic serving [::1]:55887: runtime error: slice bounds out of range [:-1]
+goroutine 147 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000020240})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0004fc000}, 0xc00028e500)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0001f34d0?}, {0x6ead58, 0xc0004fc000}, 0xc00028e500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa780, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:35 http: panic serving [::1]:55889: runtime error: slice bounds out of range [:-1]
+goroutine 115 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc0004d20d8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a000}, 0xc00028e100)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0001f3920?}, {0x6ead58, 0xc00008a000}, 0xc00028e100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002961e0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:35 http: panic serving [::1]:55890: runtime error: slice bounds out of range [:-1]
+goroutine 116 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc0004d21e0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0004fc1c0}, 0xc00028e200)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000096e70?}, {0x6ead58, 0xc0004fc1c0}, 0xc00028e200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296280, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:35 http: panic serving [::1]:55805: runtime error: slice bounds out of range [:-1]
+goroutine 113 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc0000203c0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0004fc2a0}, 0xc00021c000)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0001f3470?}, {0x6ead58, 0xc0004fc2a0}, 0xc00021c000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa640, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:35 http: panic serving [::1]:55891: runtime error: slice bounds out of range [:-1]
+goroutine 150 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc0004d22d0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a0e0}, 0xc00028e000)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000284f60?}, {0x6ead58, 0xc00008a0e0}, 0xc00028e000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fab40, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:35 http: panic serving [::1]:55900: runtime error: slice bounds out of range [:-1]
+goroutine 185 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc00018a078})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a1c0}, 0xc00028e400)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0001f3770?}, {0x6ead58, 0xc00008a1c0}, 0xc00028e400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa960, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:47 http: panic serving [::1]:55903: runtime error: slice bounds out of range [:-1]
+goroutine 119 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc0000205d0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a2a0}, 0xc00028e600)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc00007ec30?}, {0x6ead58, 0xc00008a2a0}, 0xc00028e600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002960a0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:47 http: panic serving [::1]:55922: runtime error: slice bounds out of range [:-1]
+goroutine 205 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000572078})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0002001c0}, 0xc000252000)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000096300?}, {0x6ead58, 0xc0002001c0}, 0xc000252000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa1e0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:47 http: panic serving [::1]:55925: runtime error: slice bounds out of range [:-1]
+goroutine 72 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc00018a1b0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0002bc000}, 0xc00028e700)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc00017e090?}, {0x6ead58, 0xc0002bc000}, 0xc00028e700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000140, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:48 http: panic serving [::1]:55932: runtime error: slice bounds out of range [:-1]
+goroutine 213 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000020930})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0002002a0}, 0xc000252100)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0000967b0?}, {0x6ead58, 0xc0002002a0}, 0xc000252100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa320, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:48 http: panic serving [::1]:55933: runtime error: slice bounds out of range [:-1]
+goroutine 214 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000020a38})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a380}, 0xc000252200)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000096810?}, {0x6ead58, 0xc00008a380}, 0xc000252200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa3c0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:48 http: panic serving [::1]:55936: runtime error: slice bounds out of range [:-1]
+goroutine 222 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc00018a2a0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a460}, 0xc000252400)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000096d80?}, {0x6ead58, 0xc00008a460}, 0xc000252400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa5a0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:49 http: panic serving [::1]:55940: runtime error: slice bounds out of range [:-1]
+goroutine 246 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000572168})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a540}, 0xc000252500)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0000970e0?}, {0x6ead58, 0xc00008a540}, 0xc000252500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa640, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:49 http: panic serving [::1]:55941: runtime error: slice bounds out of range [:-1]
+goroutine 247 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc0005721f8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a620}, 0xc000252600)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc000097170?}, {0x6ead58, 0xc00008a620}, 0xc000252600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa6e0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:49 http: panic serving [::1]:55944: runtime error: slice bounds out of range [:-1]
+goroutine 78 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000572288})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a700}, 0xc00028ec00)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0001b6b70?}, {0x6ead58, 0xc00008a700}, 0xc00028ec00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000d20, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:54 http: panic serving [::1]:55955: runtime error: slice bounds out of range [:-1]
+goroutine 269 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000020c48})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0002bc0e0}, 0xc00021c200)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0003440f0?}, {0x6ead58, 0xc0002bc0e0}, 0xc00021c200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa780, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:54 http: panic serving [::1]:55956: runtime error: slice bounds out of range [:-1]
+goroutine 79 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc00018a330})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a7e0}, 0xc00028ee00)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0001b7650?}, {0x6ead58, 0xc00008a7e0}, 0xc00028ee00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000fa0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:34:54 http: panic serving [::1]:55959: runtime error: slice bounds out of range [:-1]
+goroutine 293 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000020d98})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc00008a8c0}, 0xc000252700)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0000972f0?}, {0x6ead58, 0xc00008a8c0}, 0xc000252700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa8c0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:35:24 http: panic serving [::1]:56039: runtime error: slice bounds out of range [:-1]
+goroutine 277 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc00018a3c0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0002bc1c0}, 0xc00028f100)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0003ec4e0?}, {0x6ead58, 0xc0002bc1c0}, 0xc00028f100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000010e0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:35:24 http: panic serving [::1]:56040: runtime error: slice bounds out of range [:-1]
+goroutine 278 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000020e28})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc000200380}, 0xc00028f200)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0003ec540?}, {0x6ead58, 0xc000200380}, 0xc00028f200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000001220, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/20 21:35:24 http: panic serving [::1]:56043: runtime error: slice bounds out of range [:-1]
+goroutine 303 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x60b4e0, 0xc000020eb8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1, {0xc0000da0a0, 0x4a}, {0xc0000da050, 0x4f}, {0xc0000904c0, 0x9}, {0xc0000904d0, 0xa})
+	D:/golang/easydts/main.go:142 +0x7be
+main.(*MyMux).ServeHTTP(0xc000096f30, {0x6ead58?, 0xc0002bc2a0}, 0xc000252900)
+	D:/golang/easydts/main.go:165 +0xdc8
+net/http.serverHandler.ServeHTTP({0xc0000977a0?}, {0x6ead58, 0xc0002bc2a0}, 0xc000252900)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aaaa0, {0x6eb460, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:00 连接数据库错误 root:root@tcp(localhost:3306)/gin?charset=utf8mb4&parseTime=True&loc=Local
+2023/11/21 08:44:38 http: panic serving [::1]:58327: runtime error: invalid memory address or nil pointer dereference
+goroutine 98 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d018229c0f0?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc000021668, 0x13}, {0xc000021680, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc00047e1c0}, 0xc000130400)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc00040e1e0?}, {0xa9af18, 0xc00047e1c0}, 0xc000130400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa280, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:38 http: panic serving [::1]:58322: runtime error: invalid memory address or nil pointer dereference
+goroutine 83 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d01845c2e94?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc00008a138, 0x13}, {0xc00008a150, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc0000f41c0}, 0xc0000d0100)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000506060?}, {0xa9af18, 0xc0000f41c0}, 0xc0000d0100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa0a0, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:38 http: panic serving [::1]:58325: runtime error: invalid memory address or nil pointer dereference
+goroutine 40 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d0184892a34?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc000020108, 0x13}, {0xc000020198, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc0000f4000}, 0xc0000d0200)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0004da390?}, {0xa9af18, 0xc0000f4000}, 0xc0000d0200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296140, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:38 http: panic serving [::1]:58324: runtime error: invalid memory address or nil pointer dereference
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d0184cb001c?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc00008a138, 0x13}, {0xc00008a150, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc0000d2000}, 0xc000130000)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000506180?}, {0xa9af18, 0xc0000d2000}, 0xc000130000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002960a0, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:38 http: panic serving [::1]:58326: runtime error: invalid memory address or nil pointer dereference
+goroutine 16 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d018505f000?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc00014a0d8, 0x13}, {0xc00014a0f0, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc000148000}, 0xc000130300)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000096120?}, {0xa9af18, 0xc000148000}, 0xc000130300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa1e0, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:38 http: panic serving [::1]:58323: runtime error: invalid memory address or nil pointer dereference
+goroutine 84 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d01852a3078?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc000020270, 0x13}, {0xc0000202a0, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc0000f40e0}, 0xc000130100)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0005060f0?}, {0xa9af18, 0xc0000f40e0}, 0xc000130100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa140, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:38 http: panic serving [::1]:58337: runtime error: invalid memory address or nil pointer dereference
+goroutine 153 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d018556d114?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc00008a2b8, 0x13}, {0xc00008a2d0, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc0000d20e0}, 0xc000130200)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0005066f0?}, {0xa9af18, 0xc0000d20e0}, 0xc000130200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa1e0, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:42 http: panic serving [::1]:58350: runtime error: invalid memory address or nil pointer dereference
+goroutine 162 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d029e14f3c0?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc0000202a0, 0x13}, {0xc0000202d0, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc0000f4380}, 0xc0000d0400)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000097470?}, {0xa9af18, 0xc0000f4380}, 0xc0000d0400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa500, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:42 http: panic serving [::1]:58340: runtime error: invalid memory address or nil pointer dereference
+goroutine 128 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d029e511bc0?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc00008a150, 0x13}, {0xc00008a168, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc00016e1c0}, 0xc0000d0300)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000506ba0?}, {0xa9af18, 0xc00016e1c0}, 0xc0000d0300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa460, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:42 http: panic serving [::1]:58353: runtime error: invalid memory address or nil pointer dereference
+goroutine 165 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d029e82ea24?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc00008a258, 0x13}, {0xc00008a270, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc00016e2a0}, 0xc0000d0200)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0000960f0?}, {0xa9af18, 0xc00016e2a0}, 0xc0000d0200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa0a0, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:42 http: panic serving [::1]:58351: runtime error: invalid memory address or nil pointer dereference
+goroutine 133 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d029eb98700?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc00008a348, 0x13}, {0xc00008a360, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc00016e380}, 0xc0000d0100)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000506e40?}, {0xa9af18, 0xc00016e380}, 0xc0000d0100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296280, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:42 http: panic serving [::1]:58349: runtime error: invalid memory address or nil pointer dereference
+goroutine 154 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d029ee6a244?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc0001720f0, 0x13}, {0xc000172108, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc000190000}, 0xc000304200)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000506c90?}, {0xa9af18, 0xc000190000}, 0xc000304200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa320, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:42 http: panic serving [::1]:58352: runtime error: invalid memory address or nil pointer dereference
+goroutine 134 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d029f0f71ec?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc0001721f8, 0x13}, {0xc000172210, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc0001900e0}, 0xc000304100)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0000974d0?}, {0xa9af18, 0xc0001900e0}, 0xc000304100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296320, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 08:44:42 http: panic serving [::1]:58362: runtime error: invalid memory address or nil pointer dereference
+goroutine 216 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x97ffa0, 0xce6bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f1d029f396754?, {0xc0000e0000?, 0xcf66e0?}, {0xc0000dc000, 0x80}, {0xc000172288, 0x13}, {0xc0001722a0, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xa9af18?, 0xc0001901c0}, 0xc000304300)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0001f2300?}, {0xa9af18, 0xc0001901c0}, 0xc000304300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296140, {0xa9b620, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:31 http: panic serving [::1]:65296: runtime error: invalid memory address or nil pointer dereference
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23adf21ae4c4?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc00008b128, 0x13}, {0xc00008b140, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc0003be000}, 0xc0003b6100)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0000970e0?}, {0x6baeb8, 0xc0003be000}, 0xc0003b6100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa960, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:31 http: panic serving [::1]:65300: runtime error: invalid memory address or nil pointer dereference
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23adf35a179c?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc00008b1b8, 0x13}, {0xc00008b1d0, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc0003be0e0}, 0xc0000d0500)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0001f3740?}, {0x6baeb8, 0xc0003be0e0}, 0xc0000d0500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faa00, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:31 http: panic serving [::1]:65298: runtime error: invalid memory address or nil pointer dereference
+goroutine 35 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23adf38fee6c?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc000024348, 0x13}, {0xc000024360, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00048a1c0}, 0xc0003b6000)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0003ac0c0?}, {0x6baeb8, 0xc00048a1c0}, 0xc0003b6000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002be000, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:31 http: panic serving [::1]:65295: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23adf3b53244?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc00008b2c0, 0x13}, {0xc00008b2d8, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc0003be1c0}, 0xc0000d0200)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0001f3560?}, {0x6baeb8, 0xc0003be1c0}, 0xc0000d0200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa1e0, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:31 http: panic serving [::1]:65297: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23adf3d8e93c?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc000498090, 0x13}, {0xc0004980a8, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc0000de000}, 0xc0000d0100)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0003ac030?}, {0x6baeb8, 0xc0000de000}, 0xc0000d0100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa280, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:31 http: panic serving [::1]:65299: runtime error: invalid memory address or nil pointer dereference
+goroutine 36 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23adf3fb2998?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc000024510, 0x13}, {0xc000024528, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00048a2a0}, 0xc0000d0400)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0001f3650?}, {0x6baeb8, 0xc00048a2a0}, 0xc0000d0400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002be0a0, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:31 http: panic serving [::1]:65316: runtime error: invalid memory address or nil pointer dereference
+goroutine 150 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23adf42cc5fc?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc00008b350, 0x13}, {0xc00008b368, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc0003be2a0}, 0xc0002ba200)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000288b70?}, {0x6baeb8, 0xc0003be2a0}, 0xc0002ba200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002be140, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:32 http: panic serving [::1]:65319: runtime error: invalid memory address or nil pointer dereference
+goroutine 141 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23ae2740ed00?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc0000240f0, 0x13}, {0xc000024180, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc0001321c0}, 0xc0004e8200)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000288cc0?}, {0x6baeb8, 0xc0001321c0}, 0xc0004e8200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa640, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:32 http: panic serving [::1]:65321: runtime error: invalid memory address or nil pointer dereference
+goroutine 151 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23ae276e8ddc?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc00017a198, 0x13}, {0xc00017a1b0, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00027e000}, 0xc0003b6200)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0003ac2d0?}, {0x6baeb8, 0xc00027e000}, 0xc0003b6200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002be1e0, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:32 http: panic serving [::1]:65324: runtime error: invalid memory address or nil pointer dereference
+goroutine 41 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23ae2792f438?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc00008a0f0, 0x13}, {0xc00008a108, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00014a000}, 0xc0004e8000)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000288120?}, {0x6baeb8, 0xc00014a000}, 0xc0004e8000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa140, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:32 http: panic serving [::1]:65322: runtime error: invalid memory address or nil pointer dereference
+goroutine 144 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23ae27cfb620?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc000024258, 0x13}, {0xc000024288, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00014a0e0}, 0xc0003b6100)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc00048c0c0?}, {0x6baeb8, 0xc00014a0e0}, 0xc0003b6100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa780, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:32 http: panic serving [::1]:65318: runtime error: invalid memory address or nil pointer dereference
+goroutine 140 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23ae27f2cdb8?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc000024360, 0x13}, {0xc000024378, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00014a1c0}, 0xc0004e8400)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000288c60?}, {0x6baeb8, 0xc00014a1c0}, 0xc0004e8400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa500, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:32 http: panic serving [::1]:65323: runtime error: invalid memory address or nil pointer dereference
+goroutine 40 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23ae28246184?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc000024408, 0x13}, {0xc000024420, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00014a2a0}, 0xc0003b6000)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0000960f0?}, {0x6baeb8, 0xc00014a2a0}, 0xc0003b6000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa0a0, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:32 http: panic serving [::1]:65333: runtime error: invalid memory address or nil pointer dereference
+goroutine 216 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23ae28765b10?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc0000244b0, 0x13}, {0xc0000244c8, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00014a380}, 0xc0004e8100)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000288390?}, {0x6baeb8, 0xc00014a380}, 0xc0004e8100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa280, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:35 http: panic serving [::1]:65344: runtime error: invalid memory address or nil pointer dereference
+goroutine 226 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23aed8b9c0cc?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc00008a108, 0x13}, {0xc00008a120, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00037e1c0}, 0xc0003b6300)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc0000966c0?}, {0x6baeb8, 0xc00037e1c0}, 0xc0003b6300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000460, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:35 http: panic serving [::1]:65335: runtime error: invalid memory address or nil pointer dereference
+goroutine 195 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23aed8ed3510?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc00008a198, 0x13}, {0xc00008a1b0, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00037e460}, 0xc0003b6000)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc00048d200?}, {0x6baeb8, 0xc00037e460}, 0xc0003b6000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000176140, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:35 http: panic serving [::1]:65346: runtime error: invalid memory address or nil pointer dereference
+goroutine 70 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23aed9286568?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc0000f60d8, 0x13}, {0xc0000f60f0, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00014a000}, 0xc0003b6200)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000288030?}, {0x6baeb8, 0xc00014a000}, 0xc0003b6200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001820a0, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:35 http: panic serving [::1]:65345: runtime error: invalid memory address or nil pointer dereference
+goroutine 196 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23aed95a1eb4?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc0000f6168, 0x13}, {0xc0000f6180, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00014a0e0}, 0xc0000d0100)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc00048d4d0?}, {0x6baeb8, 0xc00014a0e0}, 0xc0000d0100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000176280, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:35 http: panic serving [::1]:65343: runtime error: invalid memory address or nil pointer dereference
+goroutine 223 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23aed9828930?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc0001900d8, 0x13}, {0xc0001900f0, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00025a000}, 0xc0004e8100)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc000288480?}, {0x6baeb8, 0xc00025a000}, 0xc0004e8100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa320, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:35 http: panic serving [::1]:65347: runtime error: invalid memory address or nil pointer dereference
+goroutine 55 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23aed9b5958c?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc00008a2a0, 0x13}, {0xc00008a2b8, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00037e540}, 0xc0000d0200)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc00007ec30?}, {0x6baeb8, 0xc00037e540}, 0xc0000d0200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000000, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 10:41:35 http: panic serving [::1]:65354: runtime error: invalid memory address or nil pointer dereference
+goroutine 279 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x59ffa0, 0x906bb0})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc14f23aed9efb730?, {0xc0000e0000?, 0x9166e0?}, {0xc0000dc000, 0x80}, {0xc0000f6270, 0x13}, {0xc0000f6288, 0x13})
+	D:/golang/easydts/main.go:109 +0x2ba
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0x6baeb8?, 0xc00014a1c0}, 0xc0004e8000)
+	D:/golang/easydts/main.go:186 +0x11d7
+net/http.serverHandler.ServeHTTP({0xc00048cdb0?}, {0x6baeb8, 0xc00014a1c0}, 0xc0004e8000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa1e0, {0x6bb5c0, 0xc000096ff0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:07:02 http: panic serving [::1]:52797: runtime error: slice bounds out of range [:-1]
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc0000b79e0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc0000b7938, 0x13}, {0xc0003ac1ba, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc000112540}, 0xc00044e900)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00007e5a0?}, {0xeac938, 0xc000112540}, 0xc00044e900)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000320, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:07:02 http: panic serving [::1]:52796: runtime error: slice bounds out of range [:-1]
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc0000b7a70})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc000020690, 0x13}, {0xc00052923a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc000128a80}, 0xc00044e200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000264330?}, {0xeac938, 0xc000128a80}, 0xc00044e200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000280, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:07:02 http: panic serving [::1]:52795: runtime error: slice bounds out of range [:-1]
+goroutine 36 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc0000b6150})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc000020108, 0x13}, {0xc00052809a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc000128000}, 0xc00044e100)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc0002641b0?}, {0xeac938, 0xc000128000}, 0xc00044e100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002a2000, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:07:02 http: panic serving [::1]:52794: runtime error: slice bounds out of range [:-1]
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc000348078})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc000020180, 0x13}, {0xc0005283fa, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc0001280e0}, 0xc000122100)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc0002900c0?}, {0xeac938, 0xc0001280e0}, 0xc000122100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000214820, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:07:02 http: panic serving [::1]:52798: runtime error: slice bounds out of range [:-1]
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc000348108})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc000414048, 0x13}, {0xc0003ac15a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc000416000}, 0xc000122500)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00007e630?}, {0xeac938, 0xc000416000}, 0xc000122500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002a20a0, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:07:02 http: panic serving [::1]:52799: runtime error: slice bounds out of range [:-1]
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc0004140f0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc000348168, 0x13}, {0xc00028021a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc000362000}, 0xc000122000)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000508030?}, {0xeac938, 0xc000362000}, 0xc000122000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00042a000, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:07:02 http: panic serving [::1]:53271: runtime error: slice bounds out of range [:-1]
+goroutine 157 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc0004141f8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc000414150, 0x13}, {0xc0003ac57a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc0004160e0}, 0xc000122200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00007ea80?}, {0xeac938, 0xc0004160e0}, 0xc000122200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00042a1e0, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:07:04 http: panic serving [::1]:53355: runtime error: slice bounds out of range [:-1]
+goroutine 158 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc000020228})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc0000b6210, 0x13}, {0xc00018403a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc0004a2000}, 0xc00024a100)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000290a50?}, {0xeac938, 0xc0004a2000}, 0xc00024a100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00042a280, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:07:05 http: panic serving [::1]:53420: runtime error: slice bounds out of range [:-1]
+goroutine 218 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc000110090})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc000020288, 0x13}, {0xc00052881a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc0001281c0}, 0xc00044e000)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000508600?}, {0xeac938, 0xc0001281c0}, 0xc00044e000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002a21e0, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:07:34 http: panic serving [::1]:54608: runtime error: slice bounds out of range [:-1]
+goroutine 49 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc000348210})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc0001100f0, 0x13}, {0xc000110108, 0x13})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc000154000}, 0xc00024a200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000290ea0?}, {0xeac938, 0xc000154000}, 0xc00024a200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000c2a00, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:08:03 http: panic serving [::1]:55437: runtime error: slice bounds out of range [:-1]
+goroutine 161 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xdcc5a0, 0xc000348330})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000b2410?, 0x4a?}, {0xc000254000?, 0x82?}, {0xc000348270, 0x13}, {0xc000348288, 0x13})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc000236440, {0xeac938?, 0xc0003620e0}, 0xc000162000)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc0002648a0?}, {0xeac938, 0xc0003620e0}, 0xc000162000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00042a3c0, {0xead040, 0xc0002640c0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:09:29 http: panic serving [::1]:56694: runtime error: slice bounds out of range [:-1]
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x121c5a0, 0xc00008a168})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002d2000?, 0x4a?}, {0xc0002cc000?, 0x82?}, {0xc00008a0c0, 0x13}, {0xc00008633a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc00029d140, {0x12fc938?, 0xc000386000}, 0xc0002be200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000408030?}, {0x12fc938, 0xc000386000}, 0xc0002be200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000a6140, {0x12fd040, 0xc00028d020})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:09:29 http: panic serving [::1]:56693: runtime error: slice bounds out of range [:-1]
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x121c5a0, 0xc00008a1f8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002d2000?, 0x4a?}, {0xc0002cc000?, 0x82?}, {0xc000020360, 0x13}, {0xc00006c2da, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc00029d140, {0x12fc938?, 0xc0001322a0}, 0xc000412500)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00028d2c0?}, {0x12fc938, 0xc0001322a0}, 0xc000412500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000a60a0, {0x12fd040, 0xc00028d020})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:09:29 http: panic serving [::1]:56695: runtime error: slice bounds out of range [:-1]
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x121c5a0, 0xc000020420})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002d2000?, 0x4a?}, {0xc0002cc000?, 0x82?}, {0xc00008a258, 0x13}, {0xc0000864ba, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc00029d140, {0x12fc938?, 0xc0003860e0}, 0xc0000ac300)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000096270?}, {0x12fc938, 0xc0003860e0}, 0xc0000ac300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000a61e0, {0x12fd040, 0xc00028d020})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:09:29 http: panic serving [::1]:56691: runtime error: slice bounds out of range [:-1]
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x121c5a0, 0xc000282198})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002d2000?, 0x4a?}, {0xc0002cc000?, 0x82?}, {0xc000020498, 0x13}, {0xc00006c81a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc00029d140, {0x12fc938?, 0xc000132380}, 0xc000412600)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc0001f35f0?}, {0x12fc938, 0xc000132380}, 0xc000412600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000a6000, {0x12fd040, 0xc00028d020})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:09:29 http: panic serving [::1]:56696: runtime error: slice bounds out of range [:-1]
+goroutine 51 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x121c5a0, 0xc0002782a0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002d2000?, 0x4a?}, {0xc0002cc000?, 0x82?}, {0xc0002821f8, 0x13}, {0xc00042457a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc00029d140, {0x12fc938?, 0xc0000aa0e0}, 0xc000412400)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000408210?}, {0x12fc938, 0xc0000aa0e0}, 0xc000412400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00047e000, {0x12fd040, 0xc00028d020})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:09:29 http: panic serving [::1]:56690: runtime error: slice bounds out of range [:-1]
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x121c5a0, 0xc000020558})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002d2000?, 0x4a?}, {0xc0002cc000?, 0x82?}, {0xc000278300, 0x13}, {0xc0002b899a, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc00029d140, {0x12fc938?, 0xc00014a2a0}, 0xc0000ac200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc0001f3560?}, {0x12fc938, 0xc00014a2a0}, 0xc0000ac200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002900a0, {0x12fd040, 0xc00028d020})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:09:29 http: panic serving [::1]:56917: runtime error: slice bounds out of range [:-1]
+goroutine 149 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x121c5a0, 0xc0002783a8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002d2000?, 0x4a?}, {0xc0002cc000?, 0x82?}, {0xc000282270, 0x13}, {0xc0004249fa, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc00029d140, {0x12fc938?, 0xc0000aa1c0}, 0xc0000ac500)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000408c00?}, {0x12fc938, 0xc0000aa1c0}, 0xc0000ac500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00047e1e0, {0x12fd040, 0xc00028d020})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:12:13 http: panic serving [::1]:58157: runtime error: slice bounds out of range [:-1]
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x13ac5a0, 0xc000021848})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002e0000?, 0x4a?}, {0xc0002da000?, 0x82?}, {0xc0000217a0, 0x13}, {0xc000087a1c, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc0002af140, {0x148c938?, 0xc0001fe460}, 0xc0002ce900)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc0001f3560?}, {0x148c938, 0xc0001fe460}, 0xc0002ce900)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002a60a0, {0x148d040, 0xc00028f0b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:12:13 http: panic serving [::1]:58161: runtime error: slice bounds out of range [:-1]
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x13ac5a0, 0xc000282138})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002e0000?, 0x4a?}, {0xc0002da000?, 0x82?}, {0xc0000218a8, 0x13}, {0xc000087c5c, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc0002af140, {0x148c938?, 0xc0001fe540}, 0xc0002ce200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00028f2f0?}, {0x148c938, 0xc0001fe540}, 0xc0002ce200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002a6140, {0x148d040, 0xc00028f0b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:12:13 http: panic serving [::1]:58162: runtime error: slice bounds out of range [:-1]
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x13ac5a0, 0xc000021950})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002e0000?, 0x4a?}, {0xc0002da000?, 0x82?}, {0xc000312090, 0x13}, {0xc00028009c, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc0002af140, {0x148c938?, 0xc0003081c0}, 0xc0002ce100)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00028f4a0?}, {0x148c938, 0xc0003081c0}, 0xc0002ce100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002a61e0, {0x148d040, 0xc00028f0b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:12:13 http: panic serving [::1]:58163: runtime error: slice bounds out of range [:-1]
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x13ac5a0, 0xc0002821c8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002e0000?, 0x4a?}, {0xc0002da000?, 0x82?}, {0xc0000219b0, 0x13}, {0xc000087fbc, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc0002af140, {0x148c938?, 0xc0001fe620}, 0xc00060a200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00008c120?}, {0x148c938, 0xc0001fe620}, 0xc00060a200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002a6280, {0x148d040, 0xc00028f0b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:12:13 http: panic serving [::1]:58158: runtime error: slice bounds out of range [:-1]
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x13ac5a0, 0xc000282258})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002e0000?, 0x4a?}, {0xc0002da000?, 0x82?}, {0xc000282228, 0x13}, {0xc00006c2dc, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc0002af140, {0x148c938?, 0xc0002fc2a0}, 0xc0002ce300)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00008c030?}, {0x148c938, 0xc0002fc2a0}, 0xc0002ce300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faa00, {0x148d040, 0xc00028f0b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:12:13 http: panic serving [::1]:58160: runtime error: slice bounds out of range [:-1]
+goroutine 12 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x13ac5a0, 0xc000021a70})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002e0000?, 0x4a?}, {0xc0002da000?, 0x82?}, {0xc0002822b8, 0x13}, {0xc00006c7bc, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc0002af140, {0x148c938?, 0xc0002fc380}, 0xc0002ce800)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc0001f3800?}, {0x148c938, 0xc0002fc380}, 0xc0002ce800)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faaa0, {0x148d040, 0xc00028f0b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:12:13 http: panic serving [::1]:58189: runtime error: slice bounds out of range [:-1]
+goroutine 154 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x13ac5a0, 0xc000021b00})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002e0000?, 0x4a?}, {0xc0002da000?, 0x82?}, {0xc000282318, 0x13}, {0xc00006c93c, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc0002af140, {0x148c938?, 0xc0002fc460}, 0xc000168000)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc0001f3740?}, {0x148c938, 0xc0002fc460}, 0xc000168000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002a65a0, {0x148d040, 0xc00028f0b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:12:16 http: panic serving [::1]:58197: runtime error: slice bounds out of range [:-1]
+goroutine 57 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x13ac5a0, 0xc000021b90})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002e0000?, 0x4a?}, {0xc0002da000?, 0x82?}, {0xc0006ea0c0, 0x13}, {0xc0006e821c, 0x0})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc0002af140, {0x148c938?, 0xc0006fe000}, 0xc0002cea00)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00028fd70?}, {0x148c938, 0xc0006fe000}, 0xc0002cea00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001760a0, {0x148d040, 0xc00028f0b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:12:28 http: panic serving [::1]:58248: runtime error: slice bounds out of range [:-1]
+goroutine 169 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x13ac5a0, 0xc000282450})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0002e0000?, 0x4a?}, {0xc0002da000?, 0x82?}, {0xc000282390, 0x13}, {0xc0002823a8, 0x13})
+	D:/golang/easydts/main.go:196 +0xcc7
+main.(*MyMux).ServeHTTP(0xc0002af140, {0x148c938?, 0xc0002fc540}, 0xc0002ceb00)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00028fe30?}, {0x148c938, 0xc0002fc540}, 0xc0002ceb00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000c80, {0x148d040, 0xc00028f0b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:16:12 http: panic serving [::1]:59016: runtime error: slice bounds out of range [:-1]
+goroutine 35 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x73c5a0, 0xc0000aa318})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000280f0?, 0x4a?}, {0xc000296000?, 0x82?}, {0xc0000aa198, 0x13}, {0xc0000aa1c8, 0x13})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0000331c0, {0x81c958?, 0xc000228000}, 0xc00023e000)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc0002081e0?}, {0x81c958, 0xc000228000}, 0xc00023e000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000244000, {0x81d060, 0xc00002d0e0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:16:12 http: panic serving [::1]:59014: runtime error: slice bounds out of range [:-1]
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x73c5a0, 0xc00021a090})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000280f0?, 0x4a?}, {0xc000296000?, 0x82?}, {0xc0000213e0, 0x13}, {0xc0000213f8, 0x13})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0000331c0, {0x81c958?, 0xc0002ba620}, 0xc00028e300)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00002d1d0?}, {0x81c958, 0xc0002ba620}, 0xc00028e300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000140, {0x81d060, 0xc00002d0e0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:16:12 http: panic serving [::1]:59015: runtime error: slice bounds out of range [:-1]
+goroutine 8 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x73c5a0, 0xc00021a240})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000280f0?, 0x4a?}, {0xc000296000?, 0x82?}, {0xc00021a0f0, 0x13}, {0xc00021a108, 0x13})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0000331c0, {0x81c958?, 0xc0002a2000}, 0xc00028e600)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00002d2c0?}, {0x81c958, 0xc0002a2000}, 0xc00028e600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000001e0, {0x81d060, 0xc00002d0e0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:16:12 http: panic serving [::1]:59019: runtime error: slice bounds out of range [:-1]
+goroutine 38 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x73c5a0, 0xc00021a390})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000280f0?, 0x4a?}, {0xc000296000?, 0x82?}, {0xc00021a2a0, 0x13}, {0xc00021a2b8, 0x13})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0000331c0, {0x81c958?, 0xc0002a20e0}, 0xc00028e200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000208480?}, {0x81c958, 0xc0002a20e0}, 0xc00028e200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002440a0, {0x81d060, 0xc00002d0e0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:16:12 http: panic serving [::1]:59018: runtime error: slice bounds out of range [:-1]
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x73c5a0, 0xc0000214d0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000280f0?, 0x4a?}, {0xc000296000?, 0x82?}, {0xc00021a3f0, 0x13}, {0xc00021a408, 0x13})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0000331c0, {0x81c958?, 0xc0002a21c0}, 0xc00028e100)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc0001b7590?}, {0x81c958, 0xc0002a21c0}, 0xc00028e100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001ba8c0, {0x81d060, 0xc00002d0e0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:16:12 http: panic serving [::1]:59017: runtime error: slice bounds out of range [:-1]
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x73c5a0, 0xc000021620})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000280f0?, 0x4a?}, {0xc000296000?, 0x82?}, {0xc000021530, 0x13}, {0xc000021548, 0x13})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0000331c0, {0x81c958?, 0xc0002ba700}, 0xc00028e700)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc00002d470?}, {0x81c958, 0xc0002ba700}, 0xc00028e700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000280, {0x81d060, 0xc00002d0e0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:16:12 http: panic serving [::1]:59061: runtime error: slice bounds out of range [:-1]
+goroutine 134 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x73c5a0, 0xc0000aa3d8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000280f0?, 0x4a?}, {0xc000296000?, 0x82?}, {0xc000021680, 0x13}, {0xc000021698, 0x13})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0000331c0, {0x81c958?, 0xc0002ba7e0}, 0xc00023e100)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000176d20?}, {0x81c958, 0xc0002ba7e0}, 0xc00023e100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000460, {0x81d060, 0xc00002d0e0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:16:44 http: panic serving [::1]:59168: runtime error: slice bounds out of range [:-1]
+goroutine 119 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x73c5a0, 0xc00021a4e0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000280f0?, 0x4a?}, {0xc000296000?, 0x82?}, {0xc0000aa438, 0x13}, {0xc0000aa468, 0x13})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0000331c0, {0x81c958?, 0xc0002280e0}, 0xc00023e200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0xc000176ea0?}, {0x81c958, 0xc0002280e0}, 0xc00023e200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00008ac80, {0x81d060, 0xc00002d0e0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:21:00 http: panic serving [::1]:60102: runtime error: slice bounds out of range [:-1]
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc000216270})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc0002161b0, 0x13}, {0xc0000223e4, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc00020c1c0}, 0xc0002a8000)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc00020c1c0}, 0xc0002a8000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001ba8c0, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:21:00 http: panic serving [::1]:60105: runtime error: slice bounds out of range [:-1]
+goroutine 27 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc000020120})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc0002162e8, 0x13}, {0xc0000224d4, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc00020c2a0}, 0xc000072400)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc00020c2a0}, 0xc000072400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001baa00, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:21:00 http: panic serving [::1]:60106: runtime error: slice bounds out of range [:-1]
+goroutine 29 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc0002163a8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc000020198, 0x13}, {0xc0000c8354, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc0001be000}, 0xc000072200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc0001be000}, 0xc000072200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001baaa0, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:21:00 http: panic serving [::1]:60107: runtime error: slice bounds out of range [:-1]
+goroutine 32 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc000020258})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc00012f308, 0x13}, {0xc000218564, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc00009e620}, 0xc0001ee900)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc00009e620}, 0xc0001ee900)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001bab40, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:21:00 http: panic serving [::1]:60104: runtime error: slice bounds out of range [:-1]
+goroutine 25 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc000020390})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc0000202d0, 0x13}, {0xc0000c8474, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc0001be0e0}, 0xc0001ee500)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc0001be0e0}, 0xc0001ee500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001ba960, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:21:00 http: panic serving [::1]:60103: runtime error: slice bounds out of range [:-1]
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc00012f470})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc00012f3b0, 0x13}, {0xc000218624, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc00009e700}, 0xc000072100)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc00009e700}, 0xc000072100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000000a0, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:21:00 http: panic serving [::1]:60159: runtime error: slice bounds out of range [:-1]
+goroutine 69 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc000020420})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc0000aa0f0, 0x13}, {0xc0003be0b4, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc0003cc000}, 0xc0001eea00)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc0003cc000}, 0xc0001eea00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000136000, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:21:45 http: panic serving [::1]:60323: runtime error: slice bounds out of range [:-1]
+goroutine 112 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc00012f500})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc0000aa2d0, 0x13}, {0xc0003be174, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc0003cc0e0}, 0xc0003da000)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc0003cc0e0}, 0xc0003da000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00008ad20, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:21:50 http: panic serving [::1]:60340: runtime error: slice bounds out of range [:-1]
+goroutine 113 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc0000201c8})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc000020108, 0x13}, {0xc000022384, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc0003cc000}, 0xc0001ee100)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc0003cc000}, 0xc0001ee100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00008a0a0, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:25:03 http: panic serving [::1]:60843: runtime error: slice bounds out of range [:-1]
+goroutine 95 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc00047e198})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc00047e0d8, 0x13}, {0xc00038a0e4, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc0003c8000}, 0xc0003c2000)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc0003c8000}, 0xc0003c2000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001ba140, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:25:03 http: panic serving [::1]:60367: runtime error: slice bounds out of range [:-1]
+goroutine 91 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc0000aa288})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc00047e210, 0x13}, {0xc00038a1d4, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc0003c80e0}, 0xc0001ee300)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc0003c80e0}, 0xc0001ee300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001ba280, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:25:03 http: panic serving [::1]:60840: runtime error: slice bounds out of range [:-1]
+goroutine 178 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc000180198})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc00047e2b8, 0x13}, {0xc00038a294, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc0003c81c0}, 0xc0001ee400)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc0003c81c0}, 0xc0001ee400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001420a0, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:25:03 http: panic serving [::1]:60846: runtime error: slice bounds out of range [:-1]
+goroutine 168 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc000020318})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc000180210, 0x13}, {0xc0000c8414, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc00031a0e0}, 0xc000240000)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc00031a0e0}, 0xc000240000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00008a320, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:25:03 http: panic serving [::1]:60844: runtime error: slice bounds out of range [:-1]
+goroutine 195 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc0001802d0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc000020390, 0x13}, {0xc000242264, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc0002861c0}, 0xc000240200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc0002861c0}, 0xc000240200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001ba3c0, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:25:03 http: panic serving [::1]:60845: runtime error: slice bounds out of range [:-1]
+goroutine 166 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc00047e378})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc000180348, 0x13}, {0xc0000c8534, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc00031a1c0}, 0xc0001ee100)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc00031a1c0}, 0xc0001ee100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00008a0a0, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:25:03 http: panic serving [::1]:61011: runtime error: slice bounds out of range [:-1]
+goroutine 272 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc000020450})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc00047e3f0, 0x13}, {0xc00038a384, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc0003c82a0}, 0xc000314100)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc0003c82a0}, 0xc000314100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001ba960, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/21 16:25:08 http: panic serving [::1]:61033: runtime error: slice bounds out of range [:-1]
+goroutine 236 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x11fc5a0, 0xc00047e4b0})
+	c:/go/src/runtime/panic.go:890 +0x262
+main.getdata(0x1?, {0xc0000ac460?, 0x4a?}, {0xc0001f8000?, 0x82?}, {0xc0001803f0, 0x13}, {0xc0000c85f4, 0x0})
+	D:/golang/easydts/main.go:196 +0xd27
+main.(*MyMux).ServeHTTP(0xc0001da440, {0x12dc958?, 0xc00031a2a0}, 0xc000314200)
+	D:/golang/easydts/main.go:243 +0x13c9
+net/http.serverHandler.ServeHTTP({0x12dbb78?}, {0x12dc958, 0xc00031a2a0}, 0xc000314200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001426e0, {0x12dd060, 0xc0001fa540})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/22 14:08:40 0xf162e0
+2023/11/22 14:08:47 0xf162e0
+2023/11/22 14:09:05 0xf162e0
+2023/11/22 14:10:18 0xf162e0
+2023/11/22 14:10:29 0xf162e0
+2023/11/22 14:10:37 0xf162e0
+2023/11/22 14:10:54 0xf162e0
+2023/11/22 14:15:14 0xf162e0
+2023/11/22 14:15:30 0xf162e0
+2023/11/22 14:16:13 0xf162e0
+2023/11/22 14:16:20 0xf162e0
+2023/11/22 14:17:21 0xf162e0
+2023/11/22 14:17:35 0xf162e0
+2023/11/22 14:17:58 0xf162e0
+2023/11/22 14:18:51 0xf162e0
+2023/11/22 14:24:35 0x13763e0
+2023/11/22 14:25:35 0x13763e0
+2023/11/22 14:26:09 0x13763e0
+2023/11/22 14:26:17 0x13763e0
+2023/11/22 14:28:49 0x1226420
+2023/11/22 14:33:42 sql: unknown driver "postgres" (forgotten import?)
+2023/11/23 09:25:49 Error 1146 (42S02): Table 'gin.aaa' doesn't exist
+2023/11/23 09:25:49 http: panic serving [::1]:56662: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x1225900, 0x15b5e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x134e480?, 0xc000184380}, 0xc00019c100)
+	D:/golang/easydts/main.go:280 +0x22d2
+net/http.serverHandler.ServeHTTP({0x134d5c8?}, {0x134e480, 0xc000184380}, 0xc00019c100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002260a0, {0x134ebe0, 0xc0002110b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:25:49 Error 1146 (42S02): Table 'gin.aaa' doesn't exist
+2023/11/23 09:25:49 http: panic serving [::1]:56663: runtime error: invalid memory address or nil pointer dereference
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x1225900, 0x15b5e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x134e480?, 0xc000358000}, 0xc00024e200)
+	D:/golang/easydts/main.go:280 +0x22d2
+net/http.serverHandler.ServeHTTP({0x134d5c8?}, {0x134e480, 0xc000358000}, 0xc00024e200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00017ac80, {0x134ebe0, 0xc0002110b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:25:49 Error 1146 (42S02): Table 'gin.aaa' doesn't exist
+2023/11/23 09:25:49 http: panic serving [::1]:56744: runtime error: invalid memory address or nil pointer dereference
+goroutine 16 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x1225900, 0x15b5e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x134e480?, 0xc0003580e0}, 0xc000330100)
+	D:/golang/easydts/main.go:280 +0x22d2
+net/http.serverHandler.ServeHTTP({0x134d5c8?}, {0x134e480, 0xc0003580e0}, 0xc000330100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00017ad20, {0x134ebe0, 0xc0002110b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:30:45 Error 1146 (42S02): Table 'gin.aaa' doesn't exist
+2023/11/23 09:30:45 http: panic serving [::1]:57517: runtime error: invalid memory address or nil pointer dereference
+goroutine 62 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x1225900, 0x15b5e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x134e480?, 0xc0002d02a0}, 0xc0002c0300)
+	D:/golang/easydts/main.go:280 +0x22d2
+net/http.serverHandler.ServeHTTP({0x134d5c8?}, {0x134e480, 0xc0002d02a0}, 0xc0002c0300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00030c140, {0x134ebe0, 0xc0002110b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:30:45 Error 1146 (42S02): Table 'gin.aaa' doesn't exist
+2023/11/23 09:30:45 http: panic serving [::1]:57518: runtime error: invalid memory address or nil pointer dereference
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x1225900, 0x15b5e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x134e480?, 0xc0003581c0}, 0xc000330300)
+	D:/golang/easydts/main.go:280 +0x22d2
+net/http.serverHandler.ServeHTTP({0x134d5c8?}, {0x134e480, 0xc0003581c0}, 0xc000330300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002a60a0, {0x134ebe0, 0xc0002110b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:30:45 Error 1146 (42S02): Table 'gin.aaa' doesn't exist
+2023/11/23 09:30:45 http: panic serving [::1]:57577: runtime error: invalid memory address or nil pointer dereference
+goroutine 86 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x1225900, 0x15b5e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x134e480?, 0xc000184460}, 0xc00019c200)
+	D:/golang/easydts/main.go:280 +0x22d2
+net/http.serverHandler.ServeHTTP({0x134d5c8?}, {0x134e480, 0xc000184460}, 0xc00019c200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00030c1e0, {0x134ebe0, 0xc0002110b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:33:12 Error 1054 (42S22): Unknown column 'starttime' in 'where clause'
+2023/11/23 09:33:12 http: panic serving [::1]:57813: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xa05900, 0xd95e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xb2e4c0?, 0xc0002ac0e0}, 0xc0000d0400)
+	D:/golang/easydts/main.go:280 +0x2366
+net/http.serverHandler.ServeHTTP({0xb2d608?}, {0xb2e4c0, 0xc0002ac0e0}, 0xc0000d0400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa0a0, {0xb2ec20, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:33:12 Error 1054 (42S22): Unknown column 'starttime' in 'where clause'
+2023/11/23 09:33:12 http: panic serving [::1]:58018: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xa05900, 0xd95e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xb2e4c0?, 0xc0000f01c0}, 0xc000286200)
+	D:/golang/easydts/main.go:280 +0x2366
+net/http.serverHandler.ServeHTTP({0xb2d608?}, {0xb2e4c0, 0xc0000f01c0}, 0xc000286200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa1e0, {0xb2ec20, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:33:12 Error 1054 (42S22): Unknown column 'starttime' in 'where clause'
+2023/11/23 09:33:12 http: panic serving [::1]:58021: runtime error: invalid memory address or nil pointer dereference
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xa05900, 0xd95e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xb2e4c0?, 0xc0003c2000}, 0xc0003b4000)
+	D:/golang/easydts/main.go:280 +0x2366
+net/http.serverHandler.ServeHTTP({0xb2d608?}, {0xb2e4c0, 0xc0003c2000}, 0xc0003b4000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fab40, {0xb2ec20, 0xc0000970b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:33:48 Error 1146 (42S02): Table 'gin.aaa' doesn't exist
+2023/11/23 09:33:48 http: panic serving [::1]:58079: runtime error: invalid memory address or nil pointer dereference
+goroutine 12 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xa05900, 0xd95e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc00021c580, {0xb2e4c0?, 0xc0000aa000}, 0xc00022e500)
+	D:/golang/easydts/main.go:280 +0x2366
+net/http.serverHandler.ServeHTTP({0xb2d608?}, {0xb2e4c0, 0xc0000aa000}, 0xc00022e500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fab40, {0xb2ec20, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:33:48 Error 1146 (42S02): Table 'gin.aaa' doesn't exist
+2023/11/23 09:33:48 http: panic serving [::1]:58080: runtime error: invalid memory address or nil pointer dereference
+goroutine 18 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xa05900, 0xd95e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc00021c580, {0xb2e4c0?, 0xc000202620}, 0xc00022e200)
+	D:/golang/easydts/main.go:280 +0x2366
+net/http.serverHandler.ServeHTTP({0xb2d608?}, {0xb2e4c0, 0xc000202620}, 0xc00022e200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296000, {0xb2ec20, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:33:48 Error 1146 (42S02): Table 'gin.aaa' doesn't exist
+2023/11/23 09:33:48 http: panic serving [::1]:58135: runtime error: invalid memory address or nil pointer dereference
+goroutine 66 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xa05900, 0xd95e80})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.(*MyMux).ServeHTTP(0xc00021c580, {0xb2e4c0?, 0xc00034e000}, 0xc00022e800)
+	D:/golang/easydts/main.go:280 +0x2366
+net/http.serverHandler.ServeHTTP({0xb2d608?}, {0xb2e4c0, 0xc00034e000}, 0xc00022e800)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00030c0a0, {0xb2ec20, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/23 09:35:14 Error 1146 (42S02): Table 'gin.aaa' doesn't exist
+2023/11/23 09:44:38 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=2' at line 1
+2023/11/23 19:34:54 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=2' at line 1
+2023/11/24 13:12:06 missing "=" after "mysql" in connection info string"
+2023/11/24 13:12:08 Error 1065 (42000): Query was empty
+2023/11/24 13:12:31 missing "=" after "mysql" in connection info string"
+2023/11/24 13:12:53 Error 1065 (42000): Query was empty
+2023/11/24 13:14:50 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/24 13:14:51 Error 1065 (42000): Query was empty
+2023/11/24 13:15:10 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/24 13:15:17 Error 1065 (42000): Query was empty
+2023/11/24 13:16:12 missing "=" after "mysql" in connection info string"
+2023/11/24 13:17:43 missing "=" after "mysql" in connection info string"
+2023/11/24 13:22:10 missing "=" after "mysql" in connection info string"
+2023/11/24 13:24:03 missing "=" after "mysql" in connection info string"
+2023/11/24 13:24:08 missing "=" after "mysql" in connection info string"
+2023/11/24 13:25:27 missing "=" after "mysql" in connection info string"
+2023/11/24 13:25:51 missing "=" after "mysql" in connection info string"
+2023/11/24 13:26:14 missing "=" after "mysql" in connection info string"
+2023/11/24 13:26:32 missing "=" after "mysql" in connection info string"
+2023/11/24 13:26:34 missing "=" after "mysql" in connection info string"
+2023/11/24 13:26:38 missing "=" after "mysql" in connection info string"
+2023/11/24 13:26:43 missing "=" after "mysql" in connection info string"
+2023/11/24 13:26:46 missing "=" after "mysql" in connection info string"
+2023/11/24 13:28:54 missing "=" after "mysql" in connection info string"
+2023/11/24 13:30:33 missing "=" after "mysql" in connection info string"
+2023/11/24 13:31:31 missing "=" after "mysql" in connection info string"
+2023/11/24 13:33:36 missing "=" after "mysql" in connection info string"
+2023/11/24 13:36:09 missing "=" after "mysql" in connection info string"
+2023/11/24 13:38:06 missing "=" after "mysql" in connection info string"
+2023/11/24 13:41:14 missing "=" after "mysql" in connection info string"
+2023/11/24 13:41:37 dial tcp 10.19.195.97:5432: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2023/11/24 13:46:26 missing "=" after "mysql" in connection info string"
+2023/11/24 13:46:49 dial tcp 10.19.195.97:5432: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2023/11/24 13:47:27 missing "=" after "mysql" in connection info string"
+2023/11/24 13:47:37 missing "=" after "mysql" in connection info string"
+2023/11/24 13:47:54 missing "=" after "mysql" in connection info string"
+2023/11/24 13:59:26 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:01:38 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:05:44 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:06:43 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:06:53 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:06:55 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:24:44 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:24:46 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:24:49 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:34:48 missing "=" after "mysql" in connection info string"
+2023/11/24 14:48:20 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:48:23 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:48:24 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:48:27 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:48:36 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:48:43 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:48:44 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:49:59 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 14:50:00 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 15:26:58 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 15:30:09 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 15:33:08 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 15:38:56 missing "=" after "mysql" in connection info string"
+2023/11/24 15:42:03 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 15:42:05 missing "=" after "mysql" in connection info string"
+2023/11/24 16:21:22 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 16:23:23 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 16:23:39 Error 1054 (42S22): Unknown column 'file_id' in 'field list'
+2023/11/24 16:24:04 Error 1054 (42S22): Unknown column 'file_id' in 'field list'
+2023/11/24 16:24:34 Error 1054 (42S22): Unknown column 'file_id' in 'field list'
+2023/11/24 16:24:52 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/24 16:34:31 missing "=" after "mysql" in connection info string"
+2023/11/25 09:53:47 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/25 09:58:26 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/25 10:08:11 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/25 18:50:48 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/25 18:53:25 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '00:00:00 and  data_time<1997-01-01 00:00:00 and 1=2' at line 1
+2023/11/25 18:54:41 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '00:00:00 and  data_time<1997-01-01 00:00:00 and 1=2' at line 1
+2023/11/25 18:57:18 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/25 19:18:58 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/25 19:20:38 Error 1054 (42S22): Unknown column 'num' in 'field list'
+2023/11/25 19:20:40 Error 1054 (42S22): Unknown column 'num' in 'field list'
+2023/11/26 11:10:31 pq: syntax error at or near ".35591166"
+2023/11/26 11:13:14 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/26 11:17:43 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/26 11:41:41 pq: column "clazz" does not exist
+2023/11/26 11:42:22 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/26 11:42:38 pq: column "clazz" does not exist
+2023/11/26 11:50:44 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/26 11:51:59 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/26 11:53:07 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/27 15:03:26 pq: type "atttypid" does not exist
+2023/11/27 15:03:30 pq: type "atttypid" does not exist
+2023/11/27 15:03:32 pq: type "atttypid" does not exist
+2023/11/27 15:03:33 pq: type "atttypid" does not exist
+2023/11/27 15:03:35 pq: type "atttypid" does not exist
+2023/11/27 15:06:48 pq: type "atttypid" does not exist
+2023/11/27 15:06:51 pq: type "atttypid" does not exist
+2023/11/27 15:07:27 pq: type "atttypid" does not exist
+2023/11/27 15:07:31 pq: type "atttypid" does not exist
+2023/11/27 16:32:03 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 16:32:06 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 16:32:14 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 16:32:16 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 16:32:25 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 16:32:32 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 16:32:40 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 16:52:09 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 16:52:13 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 16:52:15 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 16:52:25 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/27 17:11:39 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/28 09:59:10 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/28 10:00:51 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'separator, haveheader, subdomain, networkclass, dataindb, columnsize, columncn, ' at line 1
+2023/11/28 10:01:45 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'separator, haveheader, subdomain, networkclass, dataindb, columnsize, columncn, ' at line 1
+2023/11/28 10:02:39 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'separator, haveheader, subdomain, networkclass, dataindb, columnsize, columncn, ' at line 1
+2023/11/28 10:03:29 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'separator, haveheader, subdomain, networkclass, dataindb, columnsize, columncn, ' at line 1
+2023/11/28 10:03:55 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'separator, haveheader, subdomain, networkclass, dataindb, columnsize, columncn, ' at line 1
+2023/11/28 10:04:23 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'separator, haveheader, subdomain, networkclass, dataindb, columnsize, columncn, ' at line 1
+2023/11/28 10:04:42 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'separator, haveheader, subdomain, networkclass, dataindb, columnsize, columncn, ' at line 1
+2023/11/28 10:08:18 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/28 10:09:10 Error 1146 (42S02): Table 'gin.app_file_info1' doesn't exist
+2023/11/28 10:09:21 Error 1054 (42S22): Unknown column 'createdby' in 'field list'
+2023/11/28 10:10:25 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
