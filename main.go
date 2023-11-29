@@ -11,6 +11,8 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"sort"
+
 	"strconv"
 	"strings"
 	"time"
@@ -87,6 +89,22 @@ func MD5V(b string) string {
 	h := md5.New()
 	h.Write([]byte("cmcc" + b))
 	return hex.EncodeToString(h.Sum(nil))
+}
+
+func (p *MyMux) getlist() string {
+	var data []string
+	var result = ""
+
+	for _, r := range p.reportinfo {
+		data = append(data, r.ReportName+","+r.ReportID)
+	}
+	sort.Sort(sort.StringSlice(data))
+	for _, v := range data {
+		aaa := strings.Split(v, ",")
+		result = result + "<a href=\"/easydts/list?id=" + aaa[1] + "\" target=\"_blank\" rel=\"\">" + aaa[0] + "</a></br>"
+	}
+
+	return result
 }
 
 func getdata(dbtype uint, ConnString string, ExecSQL string, starttime string, endtime string) string {
@@ -360,6 +378,13 @@ func (p *MyMux) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 	}
 
+	if r.URL.Path == "/easydts" {
+		data := p.getlist()
+		fmt.Println(data)
+		fmt.Fprintln(w, data)
+		return
+	}
+
 	if r.URL.Path == "/easydts/add" {
 
 		if r.Method == "GET" {
@@ -558,11 +583,7 @@ func (p *MyMux) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 						ExecSQL := strings.ReplaceAll(execsql, "{{starttime}}", "1997-01-01 00:00:00")
 						ExecSQL = strings.ReplaceAll(ExecSQL, "{{endtime}}", "1997-01-01 00:00:00")
-						if strings.Index(strings.ToLower(ExecSQL), " where ") > 1 {
-							ExecSQL = ExecSQL + " and 1=2"
-						} else {
-							ExecSQL = ExecSQL + " where 1=2"
-						}
+
 						rows, err := db.Query(ExecSQL)
 						if err != nil {
 							log.Println(err.Error())
@@ -812,10 +833,11 @@ func (p *MyMux) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		 
 `+datapicker+`
 		
-         
+      
 		<table id="myTable" class="cell-border" style="width:100%">
 		
-	
+
+		<div id="btnshow" class="button" style="float:right;height:40px;"></div>
 		
 		</br>
 		
@@ -890,16 +912,41 @@ func (p *MyMux) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 			},
 			columns: [ `+columns+`
 			],
-			dom:"<lfB<t>ip>",
+			dom:'<"button"B>lfrtip',
+			
 			
 			buttons: [
-            
+				{  
+					extend: 'copy',
+					text:'复制',
+					className: 'btn btn-primary'
+				 },
+				 {
+					extend: 'pdf',
+					text:'PDF导出',
+					orientation: 'landscape',
+					pageSize : 'LEGAL',
+					
+					
+				 },
+				 {
+					extend: 'csv',
+					text:'CSV导出',
+					className: 'btn btn-primary'
+				 },
+				 {
+					extend: 'excel',
+					text:'EXCEL导出',
+					className: 'btn btn-primary'
+				 } 
+		  
+		
   
 			
 					]
 		} );
 
-	
+		oTable.buttons().container().prependTo('#btnshow');
 
 	});
 
@@ -989,28 +1036,10 @@ func main() {
 	}
 	if init {
 		db.AutoMigrate(&Report_Table{}, &Database_Config{})
-		xxx := `
-		<thead>
-<tr>
-<th>文件名</th>
-<th>用户名</th>
-<th>文件名</th>
-<th>用户名</th>
-<th>文件名</th>
-<th>用户名</th>
-<th>用户名</th>
-<th>文件名</th>
-<th>用户名</th>
-<th>文件名</th>
-<th>用户名</th>
-
-</tr>
-</thead>`
 
 		db.Create(&Database_Config{DatabaseID: "mysql1", Status: 1, DbType: 1, ConnString: "root:root@tcp(localhost:3306)/gin?charset=utf8mb4&parseTime=True&loc=Local"})
 		db.Create(&Database_Config{DatabaseID: "pg1", Status: 1, DbType: 0, ConnString: "user=postgres password=PoStPaWD@2302# dbname=postgres host=10.19.195.97 port=5432 sslmode=disable"})
 
-		db.Create(&Report_Table{ReportID: "ABCD", ReportName: "测试报表", DatabaseID: "mysql1", Header: xxx, Status: 1, IsPage: 0, Columns: "file_name,user_name,a,b,c,d,e,f,g,h,i,j", ExecSQL: "SELECT file_name,user_name,file_name a,user_name b,file_name c,user_name d,file_name e,file_name f,file_name g,file_name h,file_name i,file_name j FROM app_file_send_log where data_time<='{{starttime}}'", QueryCondition: "timeandne", QueryTime: "NOW|60|-24"})
 		os.Exit(0)
 	}
 

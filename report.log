@@ -2816,3 +2816,1988 @@ created by net/http.(*Server).Serve
 2023/11/28 10:09:10 Error 1146 (42S02): Table 'gin.app_file_info1' doesn't exist
 2023/11/28 10:09:21 Error 1054 (42S22): Unknown column 'createdby' in 'field list'
 2023/11/28 10:10:25 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/28 15:22:29 dial tcp 10.19.195.97:5432: connectex: A socket operation was attempted to an unreachable host.
+2023/11/28 15:23:22 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/28 15:24:25 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=2' at line 1
+2023/11/28 15:25:08 dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.
+2023/11/28 17:38:25 http: panic serving [::1]:61467: runtime error: invalid memory address or nil pointer dereference
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x20?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc00029c000}, 0xc00022c400)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc0000960c0?}, {0xea2760, 0xc00029c000}, 0xc00022c400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faaa0, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:25 http: panic serving [::1]:61468: runtime error: invalid memory address or nil pointer dereference
+goroutine 19 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x20?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc00029c0e0}, 0xc00022c200)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000230810?}, {0xea2760, 0xc00029c0e0}, 0xc00022c200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa000, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:25 http: panic serving [::1]:61478: runtime error: invalid memory address or nil pointer dereference
+goroutine 36 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x20?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc00029c1c0}, 0xc00022c500)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc0002309c0?}, {0xea2760, 0xc00029c1c0}, 0xc00022c500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002f4000, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:26 http: panic serving [::1]:61481: runtime error: invalid memory address or nil pointer dereference
+goroutine 38 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc0000bc000}, 0xc0000a8100)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc0000961b0?}, {0xea2760, 0xc0000bc000}, 0xc0000a8100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002f40a0, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:26 http: panic serving [::1]:61482: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc0000bc0e0}, 0xc0002ca100)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000288300?}, {0xea2760, 0xc0000bc0e0}, 0xc0002ca100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa0a0, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:26 http: panic serving [::1]:61483: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc0000bc1c0}, 0xc0002ca200)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000288360?}, {0xea2760, 0xc0000bc1c0}, 0xc0002ca200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa140, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:53 http: panic serving [::1]:61509: runtime error: invalid memory address or nil pointer dereference
+goroutine 25 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc00029c620}, 0xc0000a8700)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000230a20?}, {0xea2760, 0xc00029c620}, 0xc0000a8700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa1e0, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:53 http: panic serving [::1]:61510: runtime error: invalid memory address or nil pointer dereference
+goroutine 26 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc00029c700}, 0xc0000a8500)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc0000965d0?}, {0xea2760, 0xc00029c700}, 0xc0000a8500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa280, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:53 http: panic serving [::1]:61578: runtime error: invalid memory address or nil pointer dereference
+goroutine 43 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc00029c7e0}, 0xc0000a8800)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000096750?}, {0xea2760, 0xc00029c7e0}, 0xc0000a8800)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002f4140, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:54 http: panic serving [::1]:61582: runtime error: invalid memory address or nil pointer dereference
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc000202540}, 0xc0002ca600)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000288690?}, {0xea2760, 0xc000202540}, 0xc0002ca600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fab40, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:54 http: panic serving [::1]:61583: runtime error: invalid memory address or nil pointer dereference
+goroutine 16 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc000202620}, 0xc00022c900)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000230bd0?}, {0xea2760, 0xc000202620}, 0xc00022c900)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fabe0, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:54 http: panic serving [::1]:61584: runtime error: invalid memory address or nil pointer dereference
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc000202700}, 0xc0000a8900)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc0000967b0?}, {0xea2760, 0xc000202700}, 0xc0000a8900)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fac80, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:59 http: panic serving [::1]:61595: runtime error: invalid memory address or nil pointer dereference
+goroutine 54 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc0000bc620}, 0xc00022cd00)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000230f30?}, {0xea2760, 0xc0000bc620}, 0xc00022cd00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fad20, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:59 http: panic serving [::1]:61596: runtime error: invalid memory address or nil pointer dereference
+goroutine 30 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc0000bc700}, 0xc00022ce00)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000230f90?}, {0xea2760, 0xc0000bc700}, 0xc00022ce00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa320, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:38:59 http: panic serving [::1]:61597: runtime error: invalid memory address or nil pointer dereference
+goroutine 33 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xd77940, 0x1109e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xea2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x20?, {0xea2e50, 0xc00001c080}, {0xdf86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021a580, {0xea2760?, 0xc00029c8c0}, 0xc0002ca700)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc0002886f0?}, {0xea2760, 0xc00029c8c0}, 0xc0002ca700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa3c0, {0xea2ec0, 0xc000230720})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:39:28 http: panic serving [::1]:61661: runtime error: invalid memory address or nil pointer dereference
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xc97940, 0x1029e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xdc2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0xc0000770c0?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0}, 0x8?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xc000077100?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0001a4500, {0xdc2760?, 0xc000230460}, 0xc000216500)
+	D:/golang/easydts/main.go:397 +0x5d5
+net/http.serverHandler.ServeHTTP({0xc00028a030?}, {0xdc2760, 0xc000230460}, 0xc000216500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00017aaa0, {0xdc2ec0, 0xc0001ba6f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:39:28 http: panic serving [::1]:61662: runtime error: invalid memory address or nil pointer dereference
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xc97940, 0x1029e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xdc2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0xc0000770c0?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0}, 0x8?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xc000077100?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0001a4500, {0xdc2760?, 0xc000230540}, 0xc0001b6200)
+	D:/golang/easydts/main.go:397 +0x5d5
+net/http.serverHandler.ServeHTTP({0xc0001ba7e0?}, {0xdc2760, 0xc000230540}, 0xc0001b6200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00029a000, {0xdc2ec0, 0xc0001ba6f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:39:28 http: panic serving [::1]:61676: runtime error: invalid memory address or nil pointer dereference
+goroutine 35 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xc97940, 0x1029e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xdc2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x20?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0001a4500, {0xdc2760?, 0xc0001821c0}, 0xc000216700)
+	D:/golang/easydts/main.go:397 +0x5d5
+net/http.serverHandler.ServeHTTP({0xc000208480?}, {0xdc2760, 0xc0001821c0}, 0xc000216700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00029a0a0, {0xdc2ec0, 0xc0001ba6f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:39:29 http: panic serving [::1]:61681: runtime error: invalid memory address or nil pointer dereference
+goroutine 25 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xc97940, 0x1029e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xdc2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0001a4500, {0xdc2760?, 0xc0001822a0}, 0xc000216800)
+	D:/golang/easydts/main.go:397 +0x5d5
+net/http.serverHandler.ServeHTTP({0xc000208540?}, {0xdc2760, 0xc0001822a0}, 0xc000216800)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0003a2000, {0xdc2ec0, 0xc0001ba6f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:39:29 http: panic serving [::1]:61682: runtime error: invalid memory address or nil pointer dereference
+goroutine 26 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xc97940, 0x1029e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xdc2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0001a4500, {0xdc2760?, 0xc000182380}, 0xc0001b6300)
+	D:/golang/easydts/main.go:397 +0x5d5
+net/http.serverHandler.ServeHTTP({0xc0001ba900?}, {0xdc2760, 0xc000182380}, 0xc0001b6300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0003a20a0, {0xdc2ec0, 0xc0001ba6f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:39:29 http: panic serving [::1]:61683: runtime error: invalid memory address or nil pointer dereference
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xc97940, 0x1029e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xdc2e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xdc2e50, 0xc00001c080}, {0xd186ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0001a4500, {0xdc2760?, 0xc000182460}, 0xc0001b6600)
+	D:/golang/easydts/main.go:397 +0x5d5
+net/http.serverHandler.ServeHTTP({0xc0001bab70?}, {0xdc2760, 0xc000182460}, 0xc0001b6600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00017ab40, {0xdc2ec0, 0xc0001ba6f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:03 http: panic serving [::1]:61783: runtime error: invalid memory address or nil pointer dereference
+goroutine 12 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002b8000}, 0xc00028e000)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000282030?}, {0x762760, 0xc0002b8000}, 0xc00028e000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fab40, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:03 http: panic serving [::1]:61784: runtime error: invalid memory address or nil pointer dereference
+goroutine 18 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002b80e0}, 0xc00022e200)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc0002308a0?}, {0x762760, 0xc0002b80e0}, 0xc00022e200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296000, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:03 http: panic serving [::1]:61785: runtime error: invalid memory address or nil pointer dereference
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002b81c0}, 0xc00022e300)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000230930?}, {0x762760, 0xc0002b81c0}, 0xc00022e300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002960a0, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:04 http: panic serving [::1]:61789: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0000b8000}, 0xc000092000)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc00008c030?}, {0x762760, 0xc0000b8000}, 0xc000092000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296140, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:04 http: panic serving [::1]:61790: runtime error: invalid memory address or nil pointer dereference
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0000b80e0}, 0xc00028e500)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000282450?}, {0x762760, 0xc0000b80e0}, 0xc00028e500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00009a000, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:04 http: panic serving [::1]:61791: runtime error: invalid memory address or nil pointer dereference
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002b82a0}, 0xc000092300)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc00008c240?}, {0x762760, 0xc0002b82a0}, 0xc000092300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002961e0, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:06 http: panic serving [::1]:61796: runtime error: invalid memory address or nil pointer dereference
+goroutine 13 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002b8380}, 0xc00028e700)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc0002825a0?}, {0x762760, 0xc0002b8380}, 0xc00028e700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fabe0, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:06 http: panic serving [::1]:61797: runtime error: invalid memory address or nil pointer dereference
+goroutine 14 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002b8460}, 0xc00028e800)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000282600?}, {0x762760, 0xc0002b8460}, 0xc00028e800)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fac80, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:06 http: panic serving [::1]:61798: runtime error: invalid memory address or nil pointer dereference
+goroutine 28 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002b8540}, 0xc00022e400)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000230a50?}, {0x762760, 0xc0002b8540}, 0xc00022e400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296280, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:11 http: panic serving [::1]:61811: runtime error: invalid memory address or nil pointer dereference
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0000b81c0}, 0xc00028ec00)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000282870?}, {0x762760, 0xc0000b81c0}, 0xc00028ec00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00009a0a0, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:11 http: panic serving [::1]:61812: runtime error: invalid memory address or nil pointer dereference
+goroutine 38 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0000b82a0}, 0xc00028ed00)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc0002828d0?}, {0x762760, 0xc0000b82a0}, 0xc00028ed00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00009a140, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:11 http: panic serving [::1]:61813: runtime error: invalid memory address or nil pointer dereference
+goroutine 41 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002b8620}, 0xc00028ee00)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000282930?}, {0x762760, 0xc0002b8620}, 0xc00028ee00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00009a1e0, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:41 http: panic serving [::1]:61893: runtime error: invalid memory address or nil pointer dereference
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002021c0}, 0xc00028f000)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000282a20?}, {0x762760, 0xc0002021c0}, 0xc00028f000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fad20, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:41 http: panic serving [::1]:61894: runtime error: invalid memory address or nil pointer dereference
+goroutine 31 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002022a0}, 0xc00022e500)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000230b10?}, {0x762760, 0xc0002022a0}, 0xc00022e500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296320, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:40:41 http: panic serving [::1]:61895: runtime error: invalid memory address or nil pointer dereference
+goroutine 42 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0x637940, 0x9c9e00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0x762e50, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0x762e50, 0xc00001c080}, {0x6b86ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00021c580, {0x762760?, 0xc0002b8700}, 0xc00022e800)
+	D:/golang/easydts/main.go:397 +0x5c5
+net/http.serverHandler.ServeHTTP({0xc000230cf0?}, {0x762760, 0xc0002b8700}, 0xc00022e800)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00009a280, {0x762ec0, 0xc0002307b0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:12 http: panic serving [::1]:61972: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00031a2a0}, 0xc0000d0500)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000284030?}, {0xff27c0, 0xc00031a2a0}, 0xc0000d0500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa0a0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:12 http: panic serving [::1]:61973: runtime error: invalid memory address or nil pointer dereference
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00031a380}, 0xc0000d0200)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000097230?}, {0xff27c0, 0xc00031a380}, 0xc0000d0200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296000, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:12 http: panic serving [::1]:62008: runtime error: invalid memory address or nil pointer dereference
+goroutine 25 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00031a460}, 0xc00028e100)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000284120?}, {0xff27c0, 0xc00031a460}, 0xc00028e100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa140, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:13 http: panic serving [::1]:62010: runtime error: invalid memory address or nil pointer dereference
+goroutine 27 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xe0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0002021c0}, 0xc00021a000)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0001e9680?}, {0xff27c0, 0xc0002021c0}, 0xc00021a000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa1e0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:13 http: panic serving [::1]:62011: runtime error: invalid memory address or nil pointer dereference
+goroutine 35 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xe0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0002022a0}, 0xc00021a100)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0001e96e0?}, {0xff27c0, 0xc0002022a0}, 0xc00021a100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002960a0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:13 http: panic serving [::1]:62012: runtime error: invalid memory address or nil pointer dereference
+goroutine 12 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xe0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc000202380}, 0xc0000d0700)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0000976b0?}, {0xff27c0, 0xc000202380}, 0xc0000d0700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faaa0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:18 http: panic serving [::1]:62022: runtime error: invalid memory address or nil pointer dereference
+goroutine 14 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xe0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc000202460}, 0xc00028e200)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0002841e0?}, {0xff27c0, 0xc000202460}, 0xc00028e200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fab40, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:18 http: panic serving [::1]:62023: runtime error: invalid memory address or nil pointer dereference
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xe0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc000202540}, 0xc0000d0800)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000097710?}, {0xff27c0, 0xc000202540}, 0xc0000d0800)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fabe0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:18 http: panic serving [::1]:62024: runtime error: invalid memory address or nil pointer dereference
+goroutine 28 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc000202620}, 0xc00021a700)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0001e9bf0?}, {0xff27c0, 0xc000202620}, 0xc00021a700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa280, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:51 http: panic serving [::1]:62092: runtime error: invalid memory address or nil pointer dereference
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0xc00027f0a0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xe8?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xc00027f0e0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0002b62a0}, 0xc00028e600)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0001e9d40?}, {0xff27c0, 0xc0002b62a0}, 0xc00028e600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fac80, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:51 http: panic serving [::1]:62110: runtime error: invalid memory address or nil pointer dereference
+goroutine 38 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0xc00027f0a0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xe8?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xc00027f0e0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0002b6380}, 0xc0000d0900)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0000977d0?}, {0xff27c0, 0xc0002b6380}, 0xc0000d0900)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000296140, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:51 http: panic serving [::1]:62111: runtime error: invalid memory address or nil pointer dereference
+goroutine 54 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0002027e0}, 0xc00021aa00)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0001e9ec0?}, {0xff27c0, 0xc0002027e0}, 0xc00021aa00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fad20, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:52 http: panic serving [::1]:62114: runtime error: invalid memory address or nil pointer dereference
+goroutine 45 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc000202000}, 0xc0000d0200)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0000960f0?}, {0xff27c0, 0xc000202000}, 0xc0000d0200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa0a0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:52 http: panic serving [::1]:62115: runtime error: invalid memory address or nil pointer dereference
+goroutine 46 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0002020e0}, 0xc0000d0300)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000096180?}, {0xff27c0, 0xc0002020e0}, 0xc0000d0300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa140, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:52 http: panic serving [::1]:62116: runtime error: invalid memory address or nil pointer dereference
+goroutine 49 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0002021c0}, 0xc0000d0400)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000096210?}, {0xff27c0, 0xc0002021c0}, 0xc0000d0400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa1e0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:57 http: panic serving [::1]:62130: runtime error: invalid memory address or nil pointer dereference
+goroutine 30 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00036a000}, 0xc000364000)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0001e8120?}, {0xff27c0, 0xc00036a000}, 0xc000364000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa3c0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:57 http: panic serving [::1]:62131: runtime error: invalid memory address or nil pointer dereference
+goroutine 31 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00036a0e0}, 0xc00021a300)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0002843f0?}, {0xff27c0, 0xc00036a0e0}, 0xc00021a300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa500, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:41:57 http: panic serving [::1]:62132: runtime error: invalid memory address or nil pointer dereference
+goroutine 59 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xe0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00036a1c0}, 0xc000364300)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0001e8540?}, {0xff27c0, 0xc00036a1c0}, 0xc000364300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000000, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:42:04 http: panic serving [::1]:62147: runtime error: invalid memory address or nil pointer dereference
+goroutine 60 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0003c6000}, 0xc00021a400)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000284480?}, {0xff27c0, 0xc0003c6000}, 0xc00021a400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000140, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:42:04 http: panic serving [::1]:62148: runtime error: invalid memory address or nil pointer dereference
+goroutine 61 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0003c60e0}, 0xc00021a500)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000284540?}, {0xff27c0, 0xc0003c60e0}, 0xc00021a500)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000460, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:42:04 http: panic serving [::1]:62149: runtime error: invalid memory address or nil pointer dereference
+goroutine 83 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00036a2a0}, 0xc0000d0700)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000096900?}, {0xff27c0, 0xc00036a2a0}, 0xc0000d0700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa640, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:42:23 http: panic serving [::1]:62200: runtime error: invalid memory address or nil pointer dereference
+goroutine 67 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00036a380}, 0xc000364600)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0001e8bd0?}, {0xff27c0, 0xc00036a380}, 0xc000364600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa280, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:42:23 http: panic serving [::1]:62201: runtime error: invalid memory address or nil pointer dereference
+goroutine 85 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00036a460}, 0xc00021a600)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000284600?}, {0xff27c0, 0xc00036a460}, 0xc00021a600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa780, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:42:23 http: panic serving [::1]:62202: runtime error: invalid memory address or nil pointer dereference
+goroutine 88 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00036a540}, 0xc00021a700)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000284660?}, {0xff27c0, 0xc00036a540}, 0xc00021a700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001fa8c0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:42:53 http: panic serving [::1]:62293: runtime error: invalid memory address or nil pointer dereference
+goroutine 90 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0003c61c0}, 0xc0000d0800)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000096960?}, {0xff27c0, 0xc0003c61c0}, 0xc0000d0800)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001faaa0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:42:53 http: panic serving [::1]:62294: runtime error: invalid memory address or nil pointer dereference
+goroutine 68 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc00036a620}, 0xc000364a00)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0001e94d0?}, {0xff27c0, 0xc00036a620}, 0xc000364a00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000aa320, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:42:53 http: panic serving [::1]:62295: runtime error: invalid memory address or nil pointer dereference
+goroutine 65 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc00001c080}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc00001c080}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc0000b3140, {0xff27c0?, 0xc0003c62a0}, 0xc000364c00)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc0001e95f0?}, {0xff27c0, 0xc0003c62a0}, 0xc000364c00)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000be0, {0xff2f20, 0xc000097140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:43:43 http: panic serving [::1]:62459: runtime error: invalid memory address or nil pointer dereference
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc0000a6010}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00025a500, {0xff27c0?, 0xc000136000}, 0xc00006e100)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc00002c0f0?}, {0xff27c0, 0xc000136000}, 0xc00006e100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00023ab40, {0xff2f20, 0xc0002786f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:43:43 http: panic serving [::1]:62458: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc0000a6010}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00025a500, {0xff27c0?, 0xc0001360e0}, 0xc00006e000)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc00002c060?}, {0xff27c0, 0xc0001360e0}, 0xc00006e000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00023aaa0, {0xff2f20, 0xc0002786f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:43:43 http: panic serving [::1]:62460: runtime error: invalid memory address or nil pointer dereference
+goroutine 38 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc0000a6010}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xab?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00025a500, {0xff27c0?, 0xc0002421c0}, 0xc00026e200)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000278840?}, {0xff27c0, 0xc0002421c0}, 0xc00026e200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000176000, {0xff2f20, 0xc0002786f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:44:43 http: panic serving [::1]:62625: runtime error: invalid memory address or nil pointer dereference
+goroutine 26 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc0000a6010}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xab?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00025a500, {0xff27c0?, 0xc0002422a0}, 0xc00006e200)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc00002c180?}, {0xff27c0, 0xc0002422a0}, 0xc00006e200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00023abe0, {0xff2f20, 0xc0002786f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:44:43 http: panic serving [::1]:62626: runtime error: invalid memory address or nil pointer dereference
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc0000a6010}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xab?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00025a500, {0xff27c0?, 0xc000302000}, 0xc00006e300)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc00002c270?}, {0xff27c0, 0xc000302000}, 0xc00006e300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000000a0, {0xff2f20, 0xc0002786f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:44:43 http: panic serving [::1]:62627: runtime error: invalid memory address or nil pointer dereference
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc0000a6010}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xab?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00025a500, {0xff27c0?, 0xc0003020e0}, 0xc00011e300)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000110300?}, {0xff27c0, 0xc0003020e0}, 0xc00011e300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000000140, {0xff2f20, 0xc0002786f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:49:43 http: panic serving [::1]:63469: runtime error: invalid memory address or nil pointer dereference
+goroutine 28 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc0000a6010}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xab?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00025a500, {0xff27c0?, 0xc000242380}, 0xc00006e600)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc00002c510?}, {0xff27c0, 0xc000242380}, 0xc00006e600)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00023ac80, {0xff2f20, 0xc0002786f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:49:43 http: panic serving [::1]:63470: runtime error: invalid memory address or nil pointer dereference
+goroutine 29 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc0000a6010}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x20?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0xab?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0xab2f31?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00025a500, {0xff27c0?, 0xc000242460}, 0xc00006e700)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc00002c570?}, {0xff27c0, 0xc000242460}, 0xc00006e700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00023ad20, {0xff2f20, 0xc0002786f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 17:49:43 http: panic serving [::1]:63471: runtime error: invalid memory address or nil pointer dereference
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xec7940, 0x125ae00})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*DB).conn(0x0, {0xff2eb0, 0xc0000a6010}, 0x1)
+	c:/go/src/database/sql/sql.go:1288 +0x53
+database/sql.(*DB).query(0x0?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0}, 0x0?)
+	c:/go/src/database/sql/sql.go:1730 +0x5d
+database/sql.(*DB).QueryContext(0x0?, {0xff2eb0, 0xc0000a6010}, {0xf486ae, 0x41}, {0x0, 0x0, 0x0})
+	c:/go/src/database/sql/sql.go:1708 +0xda
+database/sql.(*DB).Query(...)
+	c:/go/src/database/sql/sql.go:1726
+main.getlist()
+	D:/golang/easydts/main.go:101 +0x50
+main.(*MyMux).ServeHTTP(0xc00025a500, {0xff27c0?, 0xc000242540}, 0xc00026e700)
+	D:/golang/easydts/main.go:397 +0x5e5
+net/http.serverHandler.ServeHTTP({0xc000278c90?}, {0xff27c0, 0xc000242540}, 0xc00026e700)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001760a0, {0xff2f20, 0xc0002786f0})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:15:17 http: panic serving [::1]:52181: runtime error: invalid memory address or nil pointer dereference
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc151937e07ba370c?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc000020210, 0x13}, {0xc000020240, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc000314000}, 0xc00019c100)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc000211230?}, {0x10527c0, 0xc000314000}, 0xc00019c100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc00017aaa0, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:15:38 http: panic serving [::1]:52180: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc15193744b58b1f4?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc0000fe078, 0x13}, {0xc0000fe090, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc0000ec000}, 0xc0004ec200)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc000169680?}, {0x10527c0, 0xc0000ec000}, 0xc0004ec200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002260a0, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:15:59 http: panic serving [::1]:52211: runtime error: invalid memory address or nil pointer dereference
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc15193798e7eef9c?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc0002042a0, 0x13}, {0xc0002042b8, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc0002882a0}, 0xc00024e100)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc00028e120?}, {0x10527c0, 0xc0002882a0}, 0xc00024e100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002261e0, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:16:20 http: panic serving [::1]:52213: runtime error: invalid memory address or nil pointer dereference
+goroutine 68 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc151937ed153ef38?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc000204438, 0x13}, {0xc000204450, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc000288380}, 0xc0002f6100)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc000168060?}, {0x10527c0, 0xc000288380}, 0xc0002f6100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000226280, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:16:36 http: panic serving [::1]:52344: runtime error: invalid memory address or nil pointer dereference
+goroutine 123 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc1519373df5cc410?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc000020240, 0x13}, {0xc000020270, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc000288000}, 0xc0002f6200)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc0005846c0?}, {0x10527c0, 0xc000288000}, 0xc0002f6200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0005880a0, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:16:41 http: panic serving [::1]:52212: runtime error: invalid memory address or nil pointer dereference
+goroutine 82 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc1519375149f2040?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc0000ec000, 0x13}, {0xc0000ec018, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc0003c4000}, 0xc000504200)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc00028e240?}, {0x10527c0, 0xc0003c4000}, 0xc000504200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000588000, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:16:57 http: panic serving [::1]:52463: runtime error: invalid memory address or nil pointer dereference
+goroutine 191 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc151937921abfd94?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc0000ec090, 0x13}, {0xc0000ec0a8, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc0003c40e0}, 0xc0002f6400)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc00028e1b0?}, {0x10527c0, 0xc0003c40e0}, 0xc0002f6400)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000588140, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:17:02 http: panic serving [::1]:52210: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc151937a58555ad8?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc0000ec228, 0x13}, {0xc0000ec240, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc0003c41c0}, 0xc000504000)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc000169920?}, {0x10527c0, 0xc0003c41c0}, 0xc000504000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000226140, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:17:18 http: panic serving [::1]:52632: runtime error: invalid memory address or nil pointer dereference
+goroutine 272 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc151937e6443d298?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc000204060, 0x13}, {0xc000204078, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc0002ec000}, 0xc0002f6000)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc000169740?}, {0x10527c0, 0xc0002ec000}, 0xc0002f6000)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000588280, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:17:23 http: panic serving [::1]:52631: runtime error: invalid memory address or nil pointer dereference
+goroutine 283 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc15193709b67e1a0?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc0000ec240, 0x13}, {0xc0000ec258, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc0003c4380}, 0xc000504100)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc000210270?}, {0x10527c0, 0xc0003c4380}, 0xc000504100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002260a0, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:17:39 http: panic serving [::1]:52633: runtime error: invalid memory address or nil pointer dereference
+goroutine 284 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc1519374a771c100?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc000252060, 0x13}, {0xc000252078, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc000254000}, 0xc0002f6300)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc000210930?}, {0x10527c0, 0xc000254000}, 0xc0002f6300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0002261e0, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:17:44 http: panic serving [::1]:52464: runtime error: invalid memory address or nil pointer dereference
+goroutine 193 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc1519375de208dac?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc0002521f8, 0x13}, {0xc000252210, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc0002540e0}, 0xc0002f6200)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc00028e3c0?}, {0x10527c0, 0xc0002540e0}, 0xc0002f6200)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0005881e0, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:18:00 http: panic serving [::1]:52749: runtime error: invalid memory address or nil pointer dereference
+goroutine 315 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc1519379e9bdde08?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc000252390, 0x13}, {0xc0002523a8, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc0002541c0}, 0xc00024e100)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc000168240?}, {0x10527c0, 0xc0002541c0}, 0xc00024e100)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0005880a0, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/28 18:18:05 http: panic serving [::1]:52763: runtime error: invalid memory address or nil pointer dereference
+goroutine 319 [running]:
+net/http.(*conn).serve.func1()
+	c:/go/src/net/http/server.go:1850 +0xbf
+panic({0xf278e0, 0x12bae20})
+	c:/go/src/runtime/panic.go:890 +0x262
+database/sql.(*Rows).Columns(0x0)
+	c:/go/src/database/sql/sql.go:3085 +0x56
+main.getdata(0xc151937b1fd4f9e4?, {0xc000250310?, 0x12cabe0?}, {0xc00025a2c0?, 0x0?}, {0xc000252528, 0x13}, {0xc000252540, 0x13})
+	D:/golang/easydts/main.go:179 +0x7a5
+main.(*MyMux).ServeHTTP(0xc00022f140, {0x10527c0?, 0xc0002542a0}, 0xc000504300)
+	D:/golang/easydts/main.go:695 +0x1e65
+net/http.serverHandler.ServeHTTP({0xc000210d80?}, {0x10527c0, 0xc0002542a0}, 0xc000504300)
+	c:/go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000588320, {0x1052f20, 0xc000211140})
+	c:/go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	c:/go/src/net/http/server.go:3102 +0x4db
+2023/11/29 14:17:57 missing "=" after "mysql" in connection info string"
